@@ -1,0 +1,41 @@
+header
+ .container
+   .header-box
+     .left
+       .right
+         nav
+           ul
+             li.current
+               a(href='/') Home
+             li
+               a(href='/Training') Training
+             li
+               a(href='/liveprojects') Live Projects
+             li
+               a(href='/services') Services
+             li
+               a(href='/support') Live Support
+             li
+               a(href='/contactus') ContactUs
+         h1
+           a(href='#')
+             span Global
+             | Edx
+   span.top-info
+     | 24/7 Sales & Support	+ 1 800 234 5678    l
+     a(href='#') Hot Deals
+     | l
+     a(href='#') Search
+   form#login-form(action='')
+     fieldset
+       span.text
+         input(type='text', value='Username', onfocus='if(this.value==\'Username\'){this.value=\'\'}', onblur='if(this.value==\'\'){this.value=\'Username\'}')
+       span.text
+         input(type='password', value='Password', onfocus='if(this.value==\'Password\'){this.value=\'\'}', onblur='if(this.value==\'\'){this.value=\'Password\'}')
+       a.login(href='#', onclick='document.getElementById(\'login-form\').submit()')
+         span
+           span Login
+       span.links
+         a(href='#') Forgot Password?
+         br
+         a(href='#') Register
