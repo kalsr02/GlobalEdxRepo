@@ -41,12 +41,12 @@
 }
 .ticker-content a {
 	text-decoration: none;	
-	color: Green;
+	color: Orange;
 	font-weight: lighter;
 }
 .ticker-content a:hover {
 	text-decoration: underline;	
-	color: Orange;
+	color: Green;
 }
 .ticker-swipe {
 	padding-top: 9px;
