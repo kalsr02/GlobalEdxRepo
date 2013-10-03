@@ -35,8 +35,20 @@ app.get('/', function(req, res){
 });
 
 app.get('/Training', function(req, res){
-  res.render('Training', {
+  res.render('training', {
     title: 'Training'
+  });
+});
+
+app.get('/Services', function(req, res){
+  res.render('services', {
+    title: 'Services'
+  });
+});
+
+app.get('/LiveProjects', function(req, res){
+  res.render('liveprojects', {
+    title: 'LiveProjects'
   });
 });
 
