@@ -1,3 +1,244 @@
-extends layout
+extends layout-services
 
 block content
+    section#content
+     .container
+       .slider-inner
+        #da-slider.da-slider(style='background-position: 1950% 0%;')
+         .da-slide.da-slide-fromright.da-slide-current
+          h2
+            i ONLINE, OFFLINE AND
+            br
+            i VIRTUAL CLASSROOM
+            br
+            i TRAINING SOLUTIONS
+          p
+            i A complete solution for training and
+            br
+            i learning, enabling rapid deployment of 
+            br
+            i training accessible from anywhere, anytime,
+            br
+            i on virtually any device.
+          .da-img
+            img(src='images/Services/Training.png', alt='')
+         .da-slide.da-slide-toleft
+          h2
+            i NEW PRODUCT
+            br
+            i DEVELOPMENT
+            br 
+            i SERVICES
+          p
+            i A complete process of bringing
+            br
+            i a new product to market using
+            br
+            i new and open source technologies.
+          .da-img
+            img(src='images/Services/ProductDevelopment.png', alt='')
+         .da-slide.da-slide-toleft
+          h2
+            i IT CONSULTING AND
+            br
+            i IT SERVICES
+          p
+            i Focuses on advising businesses on how
+            br
+            i best to use new information technology
+            br
+            i to meet their business objectives.
+          .da-img
+            img(src='images/Services/html5andcss3.png', alt='image01')
+         nav.da-arrows
+          span.da-arrows-prev
+          span.da-arrows-next
+         nav.da-dots
+          span.da-dots-current
+          span.
+          span.   
+    section#content
+     .container
+      .headline
+        h3 Our Product Services
+      .row-fluid
+        .span4
+          .service.clearfix
+            i.icon-resize-small
+            .desc
+              h2 Training
+              p
+                | Donec id elit non mi porta gravida at eget metus.
+                | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                | nibh, ut fermentum massa justo sit amet risus etiam sem...
+        .span4
+          .service.clearfix
+            i.icon-cogs
+            .desc
+              h2 Developement
+              p
+                | Donec id elit non mi porta gravida at eget metus.
+                | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                | nibh, ut fermentum massa justo sit amet risus etiam sem...
+        .span4
+          .service.clearfix
+            i.icon-plane
+            .desc
+              h2 Consulting
+              p
+                | Donec id elit non mi porta gravida at eget metus.
+                | Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+                | nibh, ut fermentum massa justo sit amet risus etiam sem...
+      .headline
+        h3 Our Client Services
+      ul.thumbnails
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/2.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Content Development
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/3.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Product Development
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/2.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Classroom Training
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/3.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Online Training
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/9.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Live Projects
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+        li.span3
+          .thumbnail-style.thumbnail-kenburn
+            .thumbnail-img
+              .overflow-hidden
+                img(src='images/Services/10.jpg', alt='')
+              a.btn-more.hover-effect(href='#') read more +
+            h7
+              a.hover-effect(href='#') Placements
+            p
+              | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem.
+      .headline
+          h3 Our Clients
+      #clients-flexslider.flexslider.home.clients
+        .flex-viewport(style='overflow: hidden; position: relative;')
+          ul.slides(style='width: 3400%; transition-duration: 0.6s; transform: translate3d(-1039px, 0px, 0px);')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/hp_grey.png', alt='')
+                img.color-img(src='images/Services/hp.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/igneus_grey.png', alt='')
+                img.color-img(src='images/Services/igneus.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/vadafone_grey.png', alt='')
+                img.color-img(src='images/Services/vadafone.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/walmart_grey.png', alt='')
+                img.color-img(src='images/Services/walmart.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/shell_grey.png', alt='')
+                img.color-img(src='images/Services/shell.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/natural_grey.png', alt='')
+                img.color-img(src='images/Services/natural.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/aztec_grey.png', alt='')
+                img.color-img(src='images/Services/aztec.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/gamescast_grey.png', alt='')
+                img.color-img(src='images/Services/gamescast.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/cisco_grey.png', alt='')
+                img.color-img(src='images/Services/cisco.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/everyday_grey.png', alt='')
+                img.color-img(src='images/Services/everyday.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/cocacola_grey.png', alt='')
+                img.color-img(src='images/Services/cocacola.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/spinworkx_grey.png', alt='')
+                img.color-img(src='images/Services/spinworkx.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/shell_grey.png', alt='')
+                img.color-img(src='images/Services/shell.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/natural_grey.png', alt='')
+                img.color-img(src='images/Services/natural.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/gamescast_grey.png', alt='')
+                img.color-img(src='images/Services/gamescast.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/everyday_grey.png', alt='')
+                img.color-img(src='images/Services/everyday.png', alt='')
+            li(style='width: 129px; float: left; display: block;')
+              a(href='#')
+                img(src='images/Services/spinworkx_grey.png', alt='')
+                img.color-img(src='images/Services/spinworkx.png', alt='')
+    script(src='media/ga.js', async='', type='text/javascript')
+    script(type='text/javascript', src='js/Services/jquery-1.js')
+    script(type='text/javascript', src='js/Services/modernizr.js')
+    script(type='text/javascript', src='js/Services/bootstrap.js')
+    script(type='text/javascript', src='js/Services/jquery.js')
+    script(type='text/javascript', src='js/Services/modernizr_002.js')
+    script(type='text/javascript', src='js/Services/jquery_002.js')
+    script(type='text/javascript', src='js/Services/back-to-top.js')
+    script(type='text/javascript', src='js/Services/app.js')
+    script(type='text/javascript', src='js/Services/index.js')
+    script(type='text/javascript')
+      jQuery(document).ready(function() {
+      App.init();
+      App.initSliders();
+      Index.initParallaxSlider();
+      });
+    

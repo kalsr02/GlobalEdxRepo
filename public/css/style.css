@@ -82,6 +82,7 @@ h4 {font-size:20px;line-height:1.2em;color:#fff;margin-bottom:27px;letter-spacin
 h4.extra {margin-bottom:12px}
 h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
 h6 {font-size:1em;line-height:1.667em;margin-bottom:5px; color:#2c86ff}
+h7 {font-size:20px;line-height:1.2em;color:green;margin-bottom:30px}
 .link1 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link1-right.png) no-repeat right top;padding-right:7px;letter-spacing:-1px;text-transform:uppercase}
 .link1:hover {color:#82b704}
 .link1 span {display:block;background:url(../images/link1-left.png) no-repeat left top;padding-left:7px}
