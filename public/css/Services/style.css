@@ -6,50 +6,6 @@ Author: Html Stream
 Website: http://htmlstream.com/preview/unify
 */
 
-/*Import Google Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-* {
-	border-radius:0 !important;
-}
-
-body { 
-    padding:0;
-	color:#333; 
-    font-size:13px;
-    line-height:1.6;
-	background:#fff;
-}
-
-p, a, li { 
-	color:#555;
-	line-height:1.6; 
-}
-
-a,
-a:focus, 
-a:hover, 
-a:active {
-   outline:0 !important;
-}
-a:hover {
-	color:#72c02c;
-	text-decoration:underline;
-}
-
-h1, h2, h3, h4, h5 {
-	color:#555; 
-	margin-top:5px; 
-	text-shadow:none; 
-	text-shadow:0 0 1px #f6f6f6;
-	font-weight:normal !important; 
-	font-family:'Open Sans', sans-serif; 
-} 
-h1 i, h2 i, h3 i, h4 i, h5 i {
-	margin-right:7px;
-}
-
 /*Block headline*/
 .heading {
 	padding:5px 20px 5px 20px;

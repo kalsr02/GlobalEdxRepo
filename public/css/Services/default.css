@@ -91,41 +91,12 @@ a.read-more:hover {
 	background-image: url(../../images/Services/Controls.png);
 }
 
-/*Typography
-------------------------------------*/
-/*Heading*/
-.headline h3, 
-.headline h4 {
-	border-bottom:2px solid #72c02c;
-}
 
-/*Blockquote*/
-blockquote:hover {
-	border-left-color:#72c02c; 
-}
-
-.hero {
-	border-left-color: #72c02c;
-}
 
 /*Carousel
 ------------------------------------*/
 .carousel-arrow a.carousel-control:hover {
 	color: #72c02c;
-}
-
-/*Footer
-------------------------------------*/
-.footer a,
-.copyright a,
-.footer a:hover,
-.copyright a:hover {
-	color: #72c02c;
-}
-
-/*Footer Blog*/
-.footer .dl-horizontal a:hover {
-	color:#72c02c !important;
 }
 
 
