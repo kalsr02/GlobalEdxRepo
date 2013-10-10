@@ -188,6 +188,16 @@ aside .line-ver4 {background-image:url(../images/line-ver.gif);background-repeat
 #faded ul.slides li a span {display:block;padding-right:8px;background:url(../images/button-right.png) no-repeat right top}
 #faded ul.slides li a span span {background:url(../images/button-tail.png) repeat-x left top;padding:15px 14px 17px 14px}
 a {outline:0;border:0}
+/* Services slider */
+#servicefaded {width:100%;height:415px;}
+#servicefaded ul {list-style:none;padding:0;margin:0}
+#servicefaded ul.slides li {position:relative;width:100%}
+#servicefaded ul.slides li img {position:absolute;width:99%;height:415px;margin:10px 0px 0px 6px}
+#servicefaded ul.slides li a {color:#fff;text-transform:uppercase;text-decoration:none;position:absolute;right:43px;top:217px;font-size:18px;line-height:1.2em;padding-left:8px;background:url(../images/button-left.png) no-repeat left top;letter-spacing:-1px}
+#servicefaded ul.slides li a:hover {color:#8ab805}
+#servicefaded ul.slides li a span {display:block;padding-right:8px;background:url(../images/button-right.png) no-repeat right top}
+#servicefaded ul.slides li a span span {background:url(../images/button-tail.png) repeat-x left top;padding:15px 14px 17px 14px}
+
 /* custom forms */
 /* Checkboxes */
 span.jqTransformCheckboxWrapper {display:block;float:left}

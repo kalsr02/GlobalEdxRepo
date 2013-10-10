@@ -24,6 +24,17 @@ head
     script(type='text/javascript', src='js/jquery.faded.js')
     script(type='text/javascript', src='js/jquery.jqtransform.js')
     script(type='text/javascript', src='js/script.js')
+    // Slider ticker
+    script(type='text/javascript')
+      $(function(){
+      $("#servicefaded").faded({
+      speed: 1000,
+      crossfade: true,
+      autoplay: 2000,
+      autopagination:false
+      });
+      $('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+      });
   body#page1(onload='new ElementMaxHeight();')
     .tail-top
       include header
