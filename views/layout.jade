@@ -3,8 +3,6 @@ html(lang='en')
 head
     title GlobalEdx
     meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
-    // Trainings
-    link(rel='stylesheet', type='text/css', href='css/examples.css', media='all')
     script(type='text/javascript', src='js/jquery.min.js')
     // Home
     link(rel='stylesheet', href='css/reset.css', type='text/css', media='all')
@@ -18,13 +16,24 @@ head
     script(type='text/javascript', src='js/jquery.faded.js')
     script(type='text/javascript', src='js/jquery.jqtransform.js')
     script(type='text/javascript', src='js/script.js')
-    // Slider ticker
+    // Home Slider ticker
     script(type='text/javascript')
       $(function(){
       $("#faded").faded({
       speed: 500,
       crossfade: true,
       autoplay: 10000,
+      autopagination:false
+      });
+      $('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+      });
+    // Services Slider ticker
+    script(type='text/javascript')
+      $(function(){
+      $("#servicefaded").faded({
+      speed: 1000,
+      crossfade: true,
+      autoplay: 2000,
       autopagination:false
       });
       $('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});

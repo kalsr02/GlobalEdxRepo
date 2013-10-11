@@ -117,16 +117,6 @@ img {
 p,h2,h3 {
     orphans:3;
     widows:3}
-h2,h3 {
-    page-break-after:avoid}
-}
-body {
-    margin:0;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size:14px;
-    line-height:20px;
-    color:#333;
-    background-color:#fff}
 a {
     color:#08c;
     text-decoration:none}
@@ -162,7 +152,7 @@ a:hover,a:focus {
     float:left;
     min-height:1px;
     margin-left:20px}
-.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container {
+.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container {
     width:940px}
 .span12 {
     width:940px}
