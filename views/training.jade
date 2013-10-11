@@ -1,686 +1,685 @@
 extends layout
 
 block content
+  #page6(onload='new ElementMaxHeight();')
+   .tail-top22
+     section#content
+       .container
+        .wrapper.content
+          #content-wrapper.clearfix.row
+            #pg-examples
+              #examples-intro
+                .col12.p35
+                  h1.tc GlobalEdx brings you courses in new technologies.
+                  h2.tc
+                    | The courses are taught by industry experts.
+                    | Once you successfully complete the course, we connect you to opportunities.
+                  span
+                  span
+                  span
+              .p60
+                nav#examples-filter
+                  ul.segmented.col12
+                    li
+                      a.btn-grey(href='#', data-filter='featured') Cloud Computing
+                    li
+                      a.btn-grey.current(href='#', data-filter='art') Big Data
+                    li
+                      a.btn-grey(href='#', data-filter='clothing') Mobile Technologies
+                    li
+                      a.btn-grey(href='#', data-filter='jewelry') Web Technologies
+                    li
+                      a.btn-grey(href='#', data-filter='tshirts') Hadoop
+                    li
+                      a.btn-grey(href='#', data-filter='books') Certifications
+                    li
+                      a.btn-grey(href='#', data-filter='electronics') Social Media Analytics
+                    li
+                      a.btn-grey(href='#', data-filter='food') Web Data Mining
+                #examples-screenshots.clearfix.p60.isotope(style='overflow: hidden; position: relative; height: 1376px;')
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 0px; top: 30px;')
+                    .view.view-first
+                      img(src='./images/Training/cxxvi-sm.jpg', width='285', height='289', alt='CXXVI')
+                      .mask
+                        h2 clothing featured
+                        h3 CXXVI
+                        p
+                          | Unique american made clothing and accessories. Their custom theme is a great example of a simple yet beautiful clothing store ecommerce template.
+                        a.info(href='http://localhost:3000/images/Training/cxxvi-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.cxxvi.net/', target='_blank') Visit Website
+                  .col4.art.featured.isotope-item(style='position: absolute; left: 340px; top: 30px;')
+                    .view.view-first
+                      img(src='./images/Training/pop-chart-lab-sm.jpg', width='285', height='289', alt='Pop Chart Lab')
+                      .mask
+                        h2 art featured
+                        h3 Pop Chart Lab
+                        p
+                          | Stunning infographics, prints and apparel. This simple custom template effectively showcases their unique works of art.
+                        a.info(href='http://localhost:3000/images/Training/pop-chart-lab-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://popchartlab.com/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 30px;')
+                    .view.view-first
+                      img(src='./images/Training/hard-graft-sm.jpg', width='285', height='289', alt='Hard Graft')
+                      .mask
+                        h2 clothing featured
+                        h3 Hard Graft
+                        p
+                          | This UK-based lifestyle and tech accessory company uses a stunning and simple custom template to showcase their products, complete with rich photography.
+                        a.info(href='http://localhost:3000/images/Training/hard-graft-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://hardgraft.com/', target='_blank') Visit Website
+                  .col4.art.featured.isotope-item(style='position: absolute; left: 0px; top: 374px;')
+                    .view.view-first
+                      img(src='./images/Training/tattly-sm.jpg', width='285', height='289', alt='Tattly')
+                      .mask
+                        h2 art featured
+                        h3 Tattly
+                        p
+                          | Uniquely designed temporary tattoos. This custom ecommerce template incorporates clever usage of the hover property on all their product thumbnails.
+                        a.info(href='http://localhost:3000/images/Training/tattly-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://tatt.ly/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 340px; top: 374px;')
+                    .view.view-first
+                      img(src='./images/Training/hiut-denim-co-sm.jpg', width='285', height='289', alt='Hiut Denim Co')
+                      .mask
+                        h2 clothing featured
+                        h3 Hiut Denim Co
+                        p
+                          | Build your own custom pair of jeans with Hiut Denim Co's cleverly designed custom theme. Full-sized background photography helps tell the company's story.
+                        a.info(href='http://localhost:3000/images/Training/hiut-denim-co-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://hiutdenim.co.uk/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 374px;')
+                    .view.view-first
+                      img(src='./images/Training/blackmilk-sm.jpg', width='285', height='289', alt='BlackMilk')
+                      .mask
+                        h2 clothing featured
+                        h3 BlackMilk
+                        p
+                          | BlackMilk's simple custom template lets their incredibly creative legging designs take the spotlight.
+                        a.info(href='http://localhost:3000/images/Training/blackmilk-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://blackmilkclothing.com/', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 718px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/designing-obama-sm.jpg', width='285', height='289', alt='Designing Obama')
+                      .mask
+                        h2 books
+                        h3 Designing Obama
+                        p
+                          | A book with accompanying digital media on designing the Obama presidential campaign. The store features one page, one product custom template.
+                        a.info(href='http://localhost:3000/images/Training/designing-obama-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.designing-obama.com/', target='_blank') Visit Website
+                  .col4.food.featured.isotope-item(style='position: absolute; left: 0px; top: 718px;')
+                    .view.view-first
+                      img(src='./images/Training/luhsetea-sm.jpg', width='285', height='289', alt='Luhse Tea')
+                      .mask
+                        h2 food featured
+                        h3 Luhse Tea
+                        p
+                          | The bagless tea movement is here! This award winning custom design makes it irresistible not to explore more about their tea brand.
+                        a.info(href='http://localhost:3000/images/Training/luhsetea-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.luhsetea.com/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 340px; top: 718px;')
+                    .view.view-first
+                      img(src='./images/Training/so-worth-loving-sm.jpg', width='285', height='289', alt='So Worth Loving')
+                      .mask
+                        h2 clothing featured
+                        h3 So Worth Loving
+                        p
+                          | Making unique clothing and accessories that make you feel loved. Take a peek at their custom template’s creative navigation bar.
+                        a.info(href='http://localhost:3000/images/Training/so-worth-loving-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.soworthloving.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 1062px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/madsen-sm.jpg', width='285', height='289', alt='Madsen')
+                      .mask
+                        h2 _
+                        h3 Madsen
+                        p
+                          | Elegant cargo utility bikes. Their single product focused custom template invites the user to learn more about their unique product.
+                        a.info(href='http://localhost:3000/images/Training/madsen-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.madsencycles.com/', target='_blank') Visit Website
+                  .col4.food.featured.isotope-item(style='position: absolute; left: 680px; top: 718px;')
+                    .view.view-first
+                      img(src='./images/Training/forty-ninth-parallel-sm.jpg', width='285', height='289', alt='Forty Ninth Parallel')
+                      .mask
+                        h2 food featured
+                        h3 Forty Ninth Parallel
+                        p
+                          | This richly textured custom template fits perfectly with Forty Ninth Parallel's richly flavoured coffee.
+                        a.info(href='http://localhost:3000/images/Training/forty-ninth-parallel-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.49thparallelroasters.com/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 0px; top: 1062px;')
+                    .view.view-first
+                      img(src='./images/Training/good-as-gold-sm.jpg', width='285', height='289', alt='Good as Gold')
+                      .mask
+                        h2 clothing featured
+                        h3 Good as Gold
+                        p
+                          | New Zealand’s premier online fashion boutique. This unique custom template begs visitors to click through by filling the screen with products.
+                        a.info(href='http://localhost:3000/images/Training/good-as-gold-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://goodasgold.co.nz/', target='_blank') Visit Website
+                  .col4.electronics.featured.isotope-item(style='position: absolute; left: 340px; top: 1062px;')
+                    .view.view-first
+                      img(src='./images/Training/sms-audio-sm.jpg', width='285', height='289', alt='SMS Audio')
+                      .mask
+                        h2 electronics featured
+                        h3 SMS Audio
+                        p
+                          | A high-tech custom template that matches 50 Cent's glossy new line of headphones.
+                        a.info(href='http://localhost:3000/images/Training/sms-audio-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.smsby50.com/', target='_blank') Visit Website
+                  .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 1062px;')
+                    .view.view-first
+                      img(src='./images/Training/litter-sm.jpg', width='285', height='289', alt='Litter')
+                      .mask
+                        h2 clothing featured
+                        h3 Litter
+                        p
+                          | San Francisco's answer to vintage-inspired head and body jewelry. Features a photograph-heavy custom template that reflects Litter's personality.
+                        a.info(href='http://localhost:3000/images/Training/litter-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://littersf.com/', target='_blank') Visit Website
+                  .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 1406px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/heads-of-state-sm.jpg', width='285', height='289', alt='Heads of State')
+                      .mask
+                        h2 art
+                        h3 Heads of State
+                        p
+                          | Beautifully designed posters, books and illustrations. Their unique custom template showcases thumbnails of their designs for visitors to browse.
+                        a.info(href='http://localhost:3000/images/Training/heads-of-state-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://store.theheadsofstate.com/', target='_blank') Visit Website
+                  .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 1750px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/chalkd-sm.jpg', width='285', height='289', alt='Chalkd')
+                      .mask
+                        h2 art
+                        h3 Chalkd
+                        p
+                          | Unique, handmade blackboards from New Zealand. These art pieces are showcased nicely in this clean and simple custom template.
+                        a.info(href='http://localhost:3000/images/Training/chalkd-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.chalkd.co.nz/', target='_blank') Visit Website
+                  .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 1750px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/visualjunkie-sm.jpg', width='285', height='289', alt='VisualJunkie')
+                      .mask
+                        h2 art
+                        h3 VisualJunkie
+                        p
+                          | A simple and clean custom template design showcases these hand picked, hand made, limited edition products made by talented artists and designers.
+                        a.info(href='http://localhost:3000/images/Training/visualjunkie-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.visualjunkie.no/', target='_blank') Visit Website
+                  .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 1750px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/art-deco-trust-sm.jpg', width='285', height='289', alt='Art Deco Trust')
+                      .mask
+                        h2 art
+                        h3 Art Deco Trust
+                        p
+                          | A community for art deco lovers and products that channels art deco in their custom template design.
+                        a.info(href='http://localhost:3000/images/Training/art-deco-trust-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.artdeconapier.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2094px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/tim-bulmer-sm.jpg', width='285', height='289', alt='Tim Bulmer')
+                      .mask
+                        h2 _
+                        h3 Tim Bulmer
+                        p
+                          | Tim Bulmer’s humorous art prints displayed in a custom template that puts his artwork front and center.
+                        a.info(href='http://localhost:3000/images/Training/tim-bulmer-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://timbulmer.myshopify.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2094px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/station-16-sm.jpg', width='285', height='289', alt='Station 16')
+                      .mask
+                        h2 _
+                        h3 Station 16
+                        p
+                          | Clean custom template design showcasing Station 16’s unique art prints from local artists.
+                        a.info(href='http://localhost:3000/images/Training/station-16-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.station16shop.com/', target='_blank') Visit Website
+                  .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2094px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/artisan-sm.jpg', width='285', height='289', alt='The Artisan')
+                      .mask
+                        h2 clothing
+                        h3 The Artisan
+                        p
+                          | A Philippine clothing brand that focuses on cut and sewn pieces. This custom template displays all products on the homepage.
+                        a.info(href='http://localhost:3000/images/Training/artisan-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.theartisanclothing.com/', target='_blank') Visit Website
+                  .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2438px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/twelve-saturdays-sm.jpg', width='285', height='289', alt='Twelve Saturdays')
+                      .mask
+                        h2 clothing
+                        h3 Twelve Saturdays
+                        p
+                          | Stylish clothing and accessories for every game of the college football season. A custom template with infinite scrolling of products.
+                        a.info(href='http://localhost:3000/images/Training/twelve-saturdays-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.twelvesaturdays.com/', target='_blank') Visit Website
+                  .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2438px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/via-snella-sm.jpg', width='285', height='289', alt='Via Snella')
+                      .mask
+                        h2 clothing
+                        h3 Via Snella
+                        p
+                          | This men’s fashion label focuses on combining traditional tailoring with unique details, shapes and cuts.
+                        a.info(href='http://localhost:3000/images/Training/via-snella-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.viasnella.com/', target='_blank') Visit Website
+                  .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2438px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/taylor-stitch-sm.jpg', width='285', height='289', alt='Taylor Stitch')
+                      .mask
+                        h2 clothing
+                        h3 Taylor Stitch
+                        p
+                          | A California inspired shirting company. Their custom template’s design lists all their apparel and accessories right on the homepage.
+                        a.info(href='http://localhost:3000/images/Training/taylor-stitch-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.taylorstitch.com/', target='_blank') Visit Website
+                  .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2782px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/southern-marsh-sm.jpg', width='285', height='289', alt='Southern Marsh')
+                      .mask
+                        h2 clothing
+                        h3 Southern Marsh
+                        p
+                          | A classic southern US clothing brand whose custom template’s collection pages make you feel like you’re simply browsing a catalog.
+                        a.info(href='http://localhost:3000/images/Training/southern-marsh-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.southernmarsh.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2782px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/misfit-and-co-sm.jpg', width='285', height='289', alt='Misfit & Co.')
+                      .mask
+                        h2 _
+                        h3 Misfit & Co.
+                        p
+                          | Bold vintage fashion and accessories complemented by a bright, simple custom template.
+                        a.info(href='http://localhost:3000/images/Training/misfit-and-co-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.misfitandco.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2782px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/elva-fields-sm.jpg', width='285', height='289', alt='Elva Fields')
+                      .mask
+                        h2 jewelry
+                        h3 Elva Fields
+                        p
+                          | Fine handmade necklaces and earrings. Their clean and bright custom template makes use of a slider to showcase their latest promotions.
+                        a.info(href='http://localhost:3000/images/Training/elva-fields-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.elvafields.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3126px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/ebony-fleur-sm.jpg', width='285', height='289', alt='Ebony Fleur')
+                      .mask
+                        h2 jewelry
+                        h3 Ebony Fleur
+                        p
+                          | Bright, bold jewelry deserves a bright, bold custom template. Jewelry inspired by the sharp precise forms of raw materials.
+                        a.info(href='http://localhost:3000/images/Training/ebony-fleur-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://ebonyfleur.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3126px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/kaviar-sm.jpg', width='285', height='289', alt='Kaviar')
+                      .mask
+                        h2 jewelry
+                        h3 Kaviar
+                        p
+                          | Ethically sourced south sea pearls. Their custom template features interactive navigation and soft colors that make their product images pop.
+                        a.info(href='http://localhost:3000/images/Training/kaviar-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://kaviarpearls.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3126px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/camila-prada-sm.jpg', width='285', height='289', alt='Camila Prada')
+                      .mask
+                        h2 jewelry
+                        h3 Camila Prada
+                        p
+                          | Beautiful, award winning tableware creatures! All products for sale are featured right on the homepage in this custom template.
+                        a.info(href='http://localhost:3000/images/Training/camila-prada-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://camilaprada.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3470px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/clark-and-diversey-sm.jpg', width='285', height='289', alt='Clark & Diversey')
+                      .mask
+                        h2 jewelry
+                        h3 Clark & Diversey
+                        p
+                          | Handmade festive head pieces, fascinators, dress adornments and accessories with worldly influences.
+                        a.info(href='http://localhost:3000/images/Training/clark-and-diversey-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.clarkanddiversey.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3470px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/martin-katz-sm.jpg', width='285', height='289', alt='Martin Katz')
+                      .mask
+                        h2 jewelry
+                        h3 Martin Katz
+                        p
+                          | Martin Katz, the original micro band jewelry bracelets. Their custom template’s homepage features news, social updates and an image slider.
+                        a.info(href='http://localhost:3000/images/Training/martin-katz-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://martinkatz.myshopify.com/', target='_blank') Visit Website
+                  .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3470px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/biko-sm.jpg', width='285', height='289', alt='Biko')
+                      .mask
+                        h2 jewelry
+                        h3 Biko
+                        p
+                          | Exceptional hand-crafted necklaces, earrings and bracelets. This store's custom template features a dramatic homepage and simple product pages.
+                        a.info(href='http://localhost:3000/images/Training/biko-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://ilovebiko.com/', target='_blank') Visit Website
+                  .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3814px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/kinkytease-sm.jpg', width='285', height='289', alt='KinkyTease')
+                      .mask
+                        h2 tshirts
+                        h3 KinkyTease
+                        p
+                          | Appropriately inappropriate tshirt’s for kinksters. A great example of how strong product photography can bring a custom template together.
+                        a.info(href='http://localhost:3000/images/Training/kinkytease-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.kinkytease.com/', target='_blank') Visit Website
+                  .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3814px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/factory-43-sm.jpg', width='285', height='289', alt='Factory 43')
+                      .mask
+                        h2 tshirts
+                        h3 Factory 43
+                        p
+                          | Tshirts, letterpress and other quality graphic goods! This custom template’s clever, interactive homepage navigation makes it irresistible to click through.
+                        a.info(href='http://localhost:3000/images/Training/factory-43-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.factory43.com/', target='_blank') Visit Website
+                  .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3814px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/critical-slide-sm.jpg', width='285', height='289', alt='Critical Slide Society')
+                      .mask
+                        h2 tshirts
+                        h3 Critical Slide Society
+                        p
+                          | This Australian surfwear keeps it clean and simple with their custom straight-to-the-point template and crisp photography.
+                        a.info(href='http://localhost:3000/images/Training/critical-slide-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.thecriticalslidesociety.com//', target='_blank') Visit Website
+                  .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4158px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/r-and-r-sm.jpg', width='285', height='289', alt='R and R')
+                      .mask
+                        h2 tshirts
+                        h3 R and R
+                        p
+                          | A collective of artists, musicians, filmmakers and writers designing amazing tees.
+                        a.info(href='http://localhost:3000/images/Training/r-and-r-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.randrtees.com/', target='_blank') Visit Website
+                  .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4158px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/lonesome-george-sm.jpg', width='285', height='289', alt='Lonesome George & Co.')
+                      .mask
+                        h2 tshirts
+                        h3 Lonesome George & Co.
+                        p
+                          | Creating a sustainability mindshift, one tshirt at a time. This custom template is dominated by it’s full page background images.
+                        a.info(href='http://localhost:3000/images/Training/lonesome-george-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.lonesomegeorge.net/collections/men/t-shirt', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4158px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/a-book-apart-sm.jpg', width='285', height='289', alt='A Book Apart')
+                      .mask
+                        h2 books
+                        h3 A Book Apart
+                        p
+                          | These brief books on web design are showcased on a beautiful site, created using a custom template that puts the books front and center.
+                        a.info(href='http://localhost:3000/images/Training/a-book-apart-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.abookapart.com/', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4502px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/cookbook-village-sm.jpg', width='285', height='289', alt='Cookbook Village')
+                      .mask
+                        h2 books
+                        h3 Cookbook Village
+                        p
+                          | Vintage and used cookbooks for foodies, cooks and collectors. This shop handles a large number of unique items.
+                        a.info(href='http://localhost:3000/images/Training/cookbook-village-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.cookbookvillage.com/', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4502px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/uppercase-sm.jpg', width='285', height='289', alt='UPPERCASE Publishing')
+                      .mask
+                        h2 books
+                        h3 UPPERCASE Publishing
+                        p
+                          | Clean and simple, this custom template draws your eye to UPPERCASE's beautifully designed catalog.
+                        a.info(href='http://localhost:3000/images/Training/uppercase-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.uppercasemagazine.com/', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4502px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/lacma-sm.jpg', width='285', height='289', alt='LACMA')
+                      .mask
+                        h2 books
+                        h3 LACMA
+                        p
+                          | Books, stationary, posters and prints on art and design at the shop of the Los Angeles County Museum of Art.
+                        a.info(href='http://localhost:3000/images/Training/lacma-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.lacma.org/', target='_blank') Visit Website
+                  .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4846px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/10-recipes-sm.jpg', width='285', height='289', alt='10 Recipes')
+                      .mask
+                        h2 books
+                        h3 10 Recipes
+                        p
+                          | A visual cookbook for the modern man. Who knew a book could help with your swag? This simple custom template emphasizes the focus on the book.
+                        a.info(href='http://localhost:3000/images/Training/10-recipes-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.10recipestogetyoulaid.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4846px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/fitedia-sm.jpg', width='285', height='289', alt='Fitedia')
+                      .mask
+                        h2 _
+                        h3 Fitedia
+                        p
+                          | Health and fitness books, ebooks and digital media. This custom template handles their large library of products with organized grace.
+                        a.info(href='http://localhost:3000/images/Training/fitedia-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://fitedia.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4846px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/good-city-records-sm.jpg', width='285', height='289', alt='Good City Records')
+                      .mask
+                        h2 _
+                        h3 Good City Records
+                        p
+                          | A unique library of new and used records. This custom template features numerous products on its homepage.
+                        a.info(href='http://localhost:3000/images/Training/good-city-records-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://goodcityrecords.com/', target='_blank') Visit Website
+                  .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5190px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/dodocase-sm.jpg', width='285', height='289', alt='DODOCase')
+                      .mask
+                        h2 electronics
+                        h3 DODOCase
+                        p
+                          | iPad cases handcrafted using traditional bookbinding techniques. This custom template effectively guides visitors to their main product.
+                        a.info(href='http://localhost:3000/images/Training/dodocase-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.dodocase.com/', target='_blank') Visit Website
+                  .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5190px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/quad-lock-sm.jpg', width='285', height='289', alt='Quad Lock')
+                      .mask
+                        h2 electronics
+                        h3 Quad Lock
+                        p
+                          | A case based mounting system for your iPhone. This electronic accessories shop does a great job of showcasing the product’s functionality.
+                        a.info(href='http://localhost:3000/images/Training/quad-lock-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.quadlockcase.com/', target='_blank') Visit Website
+                  .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5190px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/clearpath-robotics-sm.jpg', width='285', height='289', alt='Clearpath Robotics')
+                      .mask
+                        h2 electronics
+                        h3 Clearpath Robotics
+                        p
+                          | The Turtlebot, a small open source robot. Simplified homepage template design leads the user right into their electronics products.
+                        a.info(href='http://localhost:3000/images/Training/clearpath-robotics-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://store.clearpathrobotics.com/', target='_blank') Visit Website
+                  .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5534px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/playbutton-sm.jpg', width='285', height='289', alt='Playbutton')
+                      .mask
+                        h2 electronics
+                        h3 Playbutton
+                        p A wearable electronic button that plays digital music.
+                        a.info(href='http://localhost:3000/images/Training/playbutton-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.playbutton.co/', target='_blank') Visit Website
+                  .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5534px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/studio-neat-sm.jpg', width='285', height='289', alt='Studio Neat')
+                      .mask
+                        h2 electronics
+                        h3 Studio Neat
+                        p
+                          | Creators of ingenious electronics accessories. Their store showcases all their thoughtfully designed products in one place.
+                        a.info(href='http://localhost:3000/images/Training/studio-neat-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.studioneat.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5534px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/zero-gravity-sm.jpg', width='285', height='289', alt='Zero Gravity')
+                      .mask
+                        h2 _
+                        h3 Zero Gravity
+                        p Electronics accessories that reference staples of modern pop culture. 
+                        a.info(href='http://localhost:3000/images/Training/zero-gravity-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.touchzerogravity.com/', target='_blank') Visit Website
+                  .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5878px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/penny-arcade-sm.jpg', width='285', height='289', alt='Penny Arcade')
+                      .mask
+                        h2 merchandise
+                        h3 Penny Arcade
+                        p
+                          | The online store of the popular web comic. The custom template is designed to blend seamlessly with the rest of their site’s content.
+                        a.info(href='http://localhost:3000/images/Training/penny-arcade-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://store.penny-arcade.com/', target='_blank') Visit Website
+                  .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5878px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/lollapalooza-sm.jpg', width='285', height='289', alt='Lollapalooza')
+                      .mask
+                        h2 merchandise
+                        h3 Lollapalooza
+                        p
+                          | Chicago's legendary outdoor music festival promotes its goods on Shopify with a heavily stylized custom template.
+                        a.info(href='http://localhost:3000/images/Training/lollapalooza-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://store.lollapalooza.com/', target='_blank') Visit Website
+                  .col4.merchandise.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5878px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/epicmealtime-sm.jpg', width='285', height='289', alt='EpicMealTime')
+                      .mask
+                        h2 merchandise tshirts
+                        h3 EpicMealTime
+                        p
+                          | Bacon strips bacon strips bacon strips! Tshirts and merchandise of the immensely popular Epic Meal Time videos.
+                        a.info(href='http://localhost:3000/images/Training/epicmealtime-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.epicmealtime.com/', target='_blank') Visit Website
+                  .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6222px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/ghostly-sm.jpg', width='285', height='289', alt='The Ghostly Store')
+                      .mask
+                        h2 merchandise
+                        h3 The Ghostly Store
+                        p
+                          | This record label's clean and sharp custom template perfectly fits their minimal product photography.
+                        a.info(href='http://localhost:3000/images/Training/ghostly-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.theghostlystore.com/', target='_blank') Visit Website
+                  .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 6222px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/the-oatmeal-sm.jpg', width='285', height='289', alt='The Oatmeal Shop')
+                      .mask
+                        h2 merchandise
+                        h3 The Oatmeal Shop
+                        p
+                          | The popular web comic is now selling merchandise! Greeting cards, signed prints, posters, mugs and even sriracha! ...well sort of.
+                        a.info(href='http://localhost:3000/images/Training/the-oatmeal-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://shop.theoatmeal.com/', target='_blank') Visit Website
+                  .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 6222px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/little-sparrow-sm.jpg', width='285', height='289', alt='Little Sparrow Tea')
+                      .mask
+                        h2 food
+                        h3 Little Sparrow Tea
+                        p
+                          | A boutique English tea company. The interactive tabbed navigation built into their custom template invites the user to explore the different tea varieties.
+                        a.info(href='http://localhost:3000/images/Training/little-sparrow-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://littlesparrowtea.com/', target='_blank') Visit Website
+                  .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6566px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/faucet-face-sm.jpg', width='285', height='289', alt='Faucet Face')
+                      .mask
+                        h2 food
+                        h3 Faucet Face
+                        p
+                          | Glass water bottles with a design flair. Their shop’s custom template includes information on the environmental impact of drinking tap water.
+                        a.info(href='http://localhost:3000/images/Training/faucet-face-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://faucetface.com/', target='_blank') Visit Website
+                  .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 6566px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/informal-tea-co-sm.jpg', width='285', height='289', alt='Informal Tea Co.')
+                      .mask
+                        h2 food
+                        h3 Informal Tea Co.
+                        p
+                          | New Zealand organic tea brand. Clean, beautiful custom template design that showcases their 3 varieties of tea.
+                        a.info(href='http://localhost:3000/images/Training/informal-tea-co-sm.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://www.informaltea.co.nz/', target='_blank') Visit Website
+                  .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 6566px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/island-creek-oysters-sm.jpg', width='285', height='289', alt='Island Creek Oysters')
+                      .mask
+                        h2 food
+                        h3 Island Creek Oysters
+                        p
+                          | Island creek oyster farm is infamous for their oysters and clams. Their custom template showcases their history, catering services and food products.
+                        a.info(href='http://localhost:3000/images/Training/island-creek-oysters.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://islandcreekoysters.myshopify.com/', target='_blank') Visit Website
+                  .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6910px; opacity: 0;')
+                    .view.view-first
+                      img(src='./images/Training/blue-chair-sm.jpg', width='285', height='289', alt='Blue Chair Fruit')
+                      .mask
+                        h2 _
+                        h3 Blue Chair Fruit
+                        p
+                          | Delicious jams and marmalades from California. This food company’s shop also includes information about retail locations and recent news.
+                        a.info(href='http://localhost:3000/images/Training/blue-chair.jpg', rel='fancy') View Screenshot
+                        a.info(href='http://bluechairfruit.com/', target='_blank') Visit Website
+                script(type='text/javascript')
+                  var init_clicked = false;
+                  $(function() {
+                  var $container = $('#examples-screenshots');
+                  $container.isotope({
+                  transformsEnabled: false,
+                  hiddenStyle : {
+                  opacity: 0,
+                  scale : 1
+                  }
+                  });
+                  $("#examples-filter a").click(function(e) {
+                  e.preventDefault();
+                  if (!$(this).hasClass('current'))
+                  {
+                  $("#examples-filter .current").removeClass("current");
+                  $(this).addClass("current");
+                  $container.isotope({ filter: "." + $(this).attr("data-filter") });
+                  if (init_clicked)
+                  {
+                  $('html,body').animate({ scrollTop : 162 }, 400, 'swing');
+                  if (location.host.indexOf("www.shopify"))	_gaq.push(['_trackPageview', $(this).attr("href")]);
+                  if (history.pushState) history.pushState('', document.title, $(this).attr("href"));
+                  }
+                  else
+                  {
+                  init_clicked = true;
+                  }
+                  }
+                  });
+                  window.onpopstate = function(event) {
+                  $("#examples-filter a[href='" + location.pathname + "']").click();
+                  };
+                  $("#examples-filter a[data-filter='featured']").click();
+                  });
   script(type='text/javascript', src='js/all.js')
   script(type='text/javascript', src='js/jquery.fancybox.pack.js')
-  section#content
-   .container
-    .wrapper.content
-      #content-wrapper.clearfix.row
-        #pg-examples
-          #examples-intro
-            .col12.p35
-              h1.tc GlobalEdx brings you courses in new technologies.
-              h2.tc
-                | The courses are taught by industry experts.
-                | Once you successfully complete the course, we connect you to opportunities.
-          .p60
-            nav#examples-filter
-              ul.segmented.col12
-                li
-                  a.btn-grey(href='#', data-filter='featured') Cloud Computing
-                li
-                  a.btn-grey.current(href='#', data-filter='art') Big Data
-                li
-                  a.btn-grey(href='#', data-filter='clothing') Mobile Technologies
-                li
-                  a.btn-grey(href='#', data-filter='jewelry') Web Technologies
-                li
-                  a.btn-grey(href='#', data-filter='tshirts') Hadoop
-                li
-                  a.btn-grey(href='#', data-filter='books') Certifications
-                li
-                  a.btn-grey(href='#', data-filter='electronics') Social Media Analytics
-                li
-                  a.btn-grey(href='#', data-filter='food') Web Data Mining
-            #examples-screenshots.clearfix.p60.isotope(style='overflow: hidden; position: relative; height: 1376px;')
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 0px; top: 30px;')
-                .view.view-first
-                  img(src='./images/Training/cxxvi-sm.jpg', width='285', height='289', alt='CXXVI')
-                  .mask
-                    h2 clothing featured
-                    h3 CXXVI
-                    p
-                      | Unique american made clothing and accessories. Their custom theme is a great example of a simple yet beautiful clothing store ecommerce template.
-                    a.info(href='http://localhost:3000/images/Training/cxxvi-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.cxxvi.net/', target='_blank') Visit Website
-              .col4.art.featured.isotope-item(style='position: absolute; left: 340px; top: 30px;')
-                .view.view-first
-                  img(src='./images/Training/pop-chart-lab-sm.jpg', width='285', height='289', alt='Pop Chart Lab')
-                  .mask
-                    h2 art featured
-                    h3 Pop Chart Lab
-                    p
-                      | Stunning infographics, prints and apparel. This simple custom template effectively showcases their unique works of art.
-                    a.info(href='http://localhost:3000/images/Training/pop-chart-lab-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://popchartlab.com/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 30px;')
-                .view.view-first
-                  img(src='./images/Training/hard-graft-sm.jpg', width='285', height='289', alt='Hard Graft')
-                  .mask
-                    h2 clothing featured
-                    h3 Hard Graft
-                    p
-                      | This UK-based lifestyle and tech accessory company uses a stunning and simple custom template to showcase their products, complete with rich photography.
-                    a.info(href='http://localhost:3000/images/Training/hard-graft-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://hardgraft.com/', target='_blank') Visit Website
-              .col4.art.featured.isotope-item(style='position: absolute; left: 0px; top: 374px;')
-                .view.view-first
-                  img(src='./images/Training/tattly-sm.jpg', width='285', height='289', alt='Tattly')
-                  .mask
-                    h2 art featured
-                    h3 Tattly
-                    p
-                      | Uniquely designed temporary tattoos. This custom ecommerce template incorporates clever usage of the hover property on all their product thumbnails.
-                    a.info(href='http://localhost:3000/images/Training/tattly-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://tatt.ly/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 340px; top: 374px;')
-                .view.view-first
-                  img(src='./images/Training/hiut-denim-co-sm.jpg', width='285', height='289', alt='Hiut Denim Co')
-                  .mask
-                    h2 clothing featured
-                    h3 Hiut Denim Co
-                    p
-                      | Build your own custom pair of jeans with Hiut Denim Co's cleverly designed custom theme. Full-sized background photography helps tell the company's story.
-                    a.info(href='http://localhost:3000/images/Training/hiut-denim-co-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://hiutdenim.co.uk/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 374px;')
-                .view.view-first
-                  img(src='./images/Training/blackmilk-sm.jpg', width='285', height='289', alt='BlackMilk')
-                  .mask
-                    h2 clothing featured
-                    h3 BlackMilk
-                    p
-                      | BlackMilk's simple custom template lets their incredibly creative legging designs take the spotlight.
-                    a.info(href='http://localhost:3000/images/Training/blackmilk-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://blackmilkclothing.com/', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 718px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/designing-obama-sm.jpg', width='285', height='289', alt='Designing Obama')
-                  .mask
-                    h2 books
-                    h3 Designing Obama
-                    p
-                      | A book with accompanying digital media on designing the Obama presidential campaign. The store features one page, one product custom template.
-                    a.info(href='http://localhost:3000/images/Training/designing-obama-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.designing-obama.com/', target='_blank') Visit Website
-              .col4.food.featured.isotope-item(style='position: absolute; left: 0px; top: 718px;')
-                .view.view-first
-                  img(src='./images/Training/luhsetea-sm.jpg', width='285', height='289', alt='Luhse Tea')
-                  .mask
-                    h2 food featured
-                    h3 Luhse Tea
-                    p
-                      | The bagless tea movement is here! This award winning custom design makes it irresistible not to explore more about their tea brand.
-                    a.info(href='http://localhost:3000/images/Training/luhsetea-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.luhsetea.com/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 340px; top: 718px;')
-                .view.view-first
-                  img(src='./images/Training/so-worth-loving-sm.jpg', width='285', height='289', alt='So Worth Loving')
-                  .mask
-                    h2 clothing featured
-                    h3 So Worth Loving
-                    p
-                      | Making unique clothing and accessories that make you feel loved. Take a peek at their custom template’s creative navigation bar.
-                    a.info(href='http://localhost:3000/images/Training/so-worth-loving-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.soworthloving.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 1062px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/madsen-sm.jpg', width='285', height='289', alt='Madsen')
-                  .mask
-                    h2 _
-                    h3 Madsen
-                    p
-                      | Elegant cargo utility bikes. Their single product focused custom template invites the user to learn more about their unique product.
-                    a.info(href='http://localhost:3000/images/Training/madsen-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.madsencycles.com/', target='_blank') Visit Website
-              .col4.food.featured.isotope-item(style='position: absolute; left: 680px; top: 718px;')
-                .view.view-first
-                  img(src='./images/Training/forty-ninth-parallel-sm.jpg', width='285', height='289', alt='Forty Ninth Parallel')
-                  .mask
-                    h2 food featured
-                    h3 Forty Ninth Parallel
-                    p
-                      | This richly textured custom template fits perfectly with Forty Ninth Parallel's richly flavoured coffee.
-                    a.info(href='http://localhost:3000/images/Training/forty-ninth-parallel-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.49thparallelroasters.com/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 0px; top: 1062px;')
-                .view.view-first
-                  img(src='./images/Training/good-as-gold-sm.jpg', width='285', height='289', alt='Good as Gold')
-                  .mask
-                    h2 clothing featured
-                    h3 Good as Gold
-                    p
-                      | New Zealand’s premier online fashion boutique. This unique custom template begs visitors to click through by filling the screen with products.
-                    a.info(href='http://localhost:3000/images/Training/good-as-gold-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://goodasgold.co.nz/', target='_blank') Visit Website
-              .col4.electronics.featured.isotope-item(style='position: absolute; left: 340px; top: 1062px;')
-                .view.view-first
-                  img(src='./images/Training/sms-audio-sm.jpg', width='285', height='289', alt='SMS Audio')
-                  .mask
-                    h2 electronics featured
-                    h3 SMS Audio
-                    p
-                      | A high-tech custom template that matches 50 Cent's glossy new line of headphones.
-                    a.info(href='http://localhost:3000/images/Training/sms-audio-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.smsby50.com/', target='_blank') Visit Website
-              .col4.clothing.featured.isotope-item(style='position: absolute; left: 680px; top: 1062px;')
-                .view.view-first
-                  img(src='./images/Training/litter-sm.jpg', width='285', height='289', alt='Litter')
-                  .mask
-                    h2 clothing featured
-                    h3 Litter
-                    p
-                      | San Francisco's answer to vintage-inspired head and body jewelry. Features a photograph-heavy custom template that reflects Litter's personality.
-                    a.info(href='http://localhost:3000/images/Training/litter-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://littersf.com/', target='_blank') Visit Website
-              .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 1406px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/heads-of-state-sm.jpg', width='285', height='289', alt='Heads of State')
-                  .mask
-                    h2 art
-                    h3 Heads of State
-                    p
-                      | Beautifully designed posters, books and illustrations. Their unique custom template showcases thumbnails of their designs for visitors to browse.
-                    a.info(href='http://localhost:3000/images/Training/heads-of-state-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://store.theheadsofstate.com/', target='_blank') Visit Website
-              .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 1750px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/chalkd-sm.jpg', width='285', height='289', alt='Chalkd')
-                  .mask
-                    h2 art
-                    h3 Chalkd
-                    p
-                      | Unique, handmade blackboards from New Zealand. These art pieces are showcased nicely in this clean and simple custom template.
-                    a.info(href='http://localhost:3000/images/Training/chalkd-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.chalkd.co.nz/', target='_blank') Visit Website
-              .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 1750px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/visualjunkie-sm.jpg', width='285', height='289', alt='VisualJunkie')
-                  .mask
-                    h2 art
-                    h3 VisualJunkie
-                    p
-                      | A simple and clean custom template design showcases these hand picked, hand made, limited edition products made by talented artists and designers.
-                    a.info(href='http://localhost:3000/images/Training/visualjunkie-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.visualjunkie.no/', target='_blank') Visit Website
-              .col4.art.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 1750px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/art-deco-trust-sm.jpg', width='285', height='289', alt='Art Deco Trust')
-                  .mask
-                    h2 art
-                    h3 Art Deco Trust
-                    p
-                      | A community for art deco lovers and products that channels art deco in their custom template design.
-                    a.info(href='http://localhost:3000/images/Training/art-deco-trust-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.artdeconapier.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2094px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/tim-bulmer-sm.jpg', width='285', height='289', alt='Tim Bulmer')
-                  .mask
-                    h2 _
-                    h3 Tim Bulmer
-                    p
-                      | Tim Bulmer’s humorous art prints displayed in a custom template that puts his artwork front and center.
-                    a.info(href='http://localhost:3000/images/Training/tim-bulmer-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://timbulmer.myshopify.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2094px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/station-16-sm.jpg', width='285', height='289', alt='Station 16')
-                  .mask
-                    h2 _
-                    h3 Station 16
-                    p
-                      | Clean custom template design showcasing Station 16’s unique art prints from local artists.
-                    a.info(href='http://localhost:3000/images/Training/station-16-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.station16shop.com/', target='_blank') Visit Website
-              .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2094px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/artisan-sm.jpg', width='285', height='289', alt='The Artisan')
-                  .mask
-                    h2 clothing
-                    h3 The Artisan
-                    p
-                      | A Philippine clothing brand that focuses on cut and sewn pieces. This custom template displays all products on the homepage.
-                    a.info(href='http://localhost:3000/images/Training/artisan-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.theartisanclothing.com/', target='_blank') Visit Website
-              .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2438px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/twelve-saturdays-sm.jpg', width='285', height='289', alt='Twelve Saturdays')
-                  .mask
-                    h2 clothing
-                    h3 Twelve Saturdays
-                    p
-                      | Stylish clothing and accessories for every game of the college football season. A custom template with infinite scrolling of products.
-                    a.info(href='http://localhost:3000/images/Training/twelve-saturdays-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.twelvesaturdays.com/', target='_blank') Visit Website
-              .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2438px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/via-snella-sm.jpg', width='285', height='289', alt='Via Snella')
-                  .mask
-                    h2 clothing
-                    h3 Via Snella
-                    p
-                      | This men’s fashion label focuses on combining traditional tailoring with unique details, shapes and cuts.
-                    a.info(href='http://localhost:3000/images/Training/via-snella-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.viasnella.com/', target='_blank') Visit Website
-              .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2438px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/taylor-stitch-sm.jpg', width='285', height='289', alt='Taylor Stitch')
-                  .mask
-                    h2 clothing
-                    h3 Taylor Stitch
-                    p
-                      | A California inspired shirting company. Their custom template’s design lists all their apparel and accessories right on the homepage.
-                    a.info(href='http://localhost:3000/images/Training/taylor-stitch-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.taylorstitch.com/', target='_blank') Visit Website
-              .col4.clothing.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 2782px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/southern-marsh-sm.jpg', width='285', height='289', alt='Southern Marsh')
-                  .mask
-                    h2 clothing
-                    h3 Southern Marsh
-                    p
-                      | A classic southern US clothing brand whose custom template’s collection pages make you feel like you’re simply browsing a catalog.
-                    a.info(href='http://localhost:3000/images/Training/southern-marsh-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.southernmarsh.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 2782px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/misfit-and-co-sm.jpg', width='285', height='289', alt='Misfit & Co.')
-                  .mask
-                    h2 _
-                    h3 Misfit & Co.
-                    p
-                      | Bold vintage fashion and accessories complemented by a bright, simple custom template.
-                    a.info(href='http://localhost:3000/images/Training/misfit-and-co-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.misfitandco.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 2782px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/elva-fields-sm.jpg', width='285', height='289', alt='Elva Fields')
-                  .mask
-                    h2 jewelry
-                    h3 Elva Fields
-                    p
-                      | Fine handmade necklaces and earrings. Their clean and bright custom template makes use of a slider to showcase their latest promotions.
-                    a.info(href='http://localhost:3000/images/Training/elva-fields-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.elvafields.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3126px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/ebony-fleur-sm.jpg', width='285', height='289', alt='Ebony Fleur')
-                  .mask
-                    h2 jewelry
-                    h3 Ebony Fleur
-                    p
-                      | Bright, bold jewelry deserves a bright, bold custom template. Jewelry inspired by the sharp precise forms of raw materials.
-                    a.info(href='http://localhost:3000/images/Training/ebony-fleur-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://ebonyfleur.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3126px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/kaviar-sm.jpg', width='285', height='289', alt='Kaviar')
-                  .mask
-                    h2 jewelry
-                    h3 Kaviar
-                    p
-                      | Ethically sourced south sea pearls. Their custom template features interactive navigation and soft colors that make their product images pop.
-                    a.info(href='http://localhost:3000/images/Training/kaviar-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://kaviarpearls.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3126px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/camila-prada-sm.jpg', width='285', height='289', alt='Camila Prada')
-                  .mask
-                    h2 jewelry
-                    h3 Camila Prada
-                    p
-                      | Beautiful, award winning tableware creatures! All products for sale are featured right on the homepage in this custom template.
-                    a.info(href='http://localhost:3000/images/Training/camila-prada-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://camilaprada.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3470px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/clark-and-diversey-sm.jpg', width='285', height='289', alt='Clark & Diversey')
-                  .mask
-                    h2 jewelry
-                    h3 Clark & Diversey
-                    p
-                      | Handmade festive head pieces, fascinators, dress adornments and accessories with worldly influences.
-                    a.info(href='http://localhost:3000/images/Training/clark-and-diversey-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.clarkanddiversey.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3470px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/martin-katz-sm.jpg', width='285', height='289', alt='Martin Katz')
-                  .mask
-                    h2 jewelry
-                    h3 Martin Katz
-                    p
-                      | Martin Katz, the original micro band jewelry bracelets. Their custom template’s homepage features news, social updates and an image slider.
-                    a.info(href='http://localhost:3000/images/Training/martin-katz-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://martinkatz.myshopify.com/', target='_blank') Visit Website
-              .col4.jewelry.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3470px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/biko-sm.jpg', width='285', height='289', alt='Biko')
-                  .mask
-                    h2 jewelry
-                    h3 Biko
-                    p
-                      | Exceptional hand-crafted necklaces, earrings and bracelets. This store's custom template features a dramatic homepage and simple product pages.
-                    a.info(href='http://localhost:3000/images/Training/biko-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://ilovebiko.com/', target='_blank') Visit Website
-              .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 3814px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/kinkytease-sm.jpg', width='285', height='289', alt='KinkyTease')
-                  .mask
-                    h2 tshirts
-                    h3 KinkyTease
-                    p
-                      | Appropriately inappropriate tshirt’s for kinksters. A great example of how strong product photography can bring a custom template together.
-                    a.info(href='http://localhost:3000/images/Training/kinkytease-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.kinkytease.com/', target='_blank') Visit Website
-              .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 3814px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/factory-43-sm.jpg', width='285', height='289', alt='Factory 43')
-                  .mask
-                    h2 tshirts
-                    h3 Factory 43
-                    p
-                      | Tshirts, letterpress and other quality graphic goods! This custom template’s clever, interactive homepage navigation makes it irresistible to click through.
-                    a.info(href='http://localhost:3000/images/Training/factory-43-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.factory43.com/', target='_blank') Visit Website
-              .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 3814px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/critical-slide-sm.jpg', width='285', height='289', alt='Critical Slide Society')
-                  .mask
-                    h2 tshirts
-                    h3 Critical Slide Society
-                    p
-                      | This Australian surfwear keeps it clean and simple with their custom straight-to-the-point template and crisp photography.
-                    a.info(href='http://localhost:3000/images/Training/critical-slide-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.thecriticalslidesociety.com//', target='_blank') Visit Website
-              .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4158px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/r-and-r-sm.jpg', width='285', height='289', alt='R and R')
-                  .mask
-                    h2 tshirts
-                    h3 R and R
-                    p
-                      | A collective of artists, musicians, filmmakers and writers designing amazing tees.
-                    a.info(href='http://localhost:3000/images/Training/r-and-r-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.randrtees.com/', target='_blank') Visit Website
-              .col4.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4158px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/lonesome-george-sm.jpg', width='285', height='289', alt='Lonesome George & Co.')
-                  .mask
-                    h2 tshirts
-                    h3 Lonesome George & Co.
-                    p
-                      | Creating a sustainability mindshift, one tshirt at a time. This custom template is dominated by it’s full page background images.
-                    a.info(href='http://localhost:3000/images/Training/lonesome-george-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.lonesomegeorge.net/collections/men/t-shirt', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4158px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/a-book-apart-sm.jpg', width='285', height='289', alt='A Book Apart')
-                  .mask
-                    h2 books
-                    h3 A Book Apart
-                    p
-                      | These brief books on web design are showcased on a beautiful site, created using a custom template that puts the books front and center.
-                    a.info(href='http://localhost:3000/images/Training/a-book-apart-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.abookapart.com/', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4502px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/cookbook-village-sm.jpg', width='285', height='289', alt='Cookbook Village')
-                  .mask
-                    h2 books
-                    h3 Cookbook Village
-                    p
-                      | Vintage and used cookbooks for foodies, cooks and collectors. This shop handles a large number of unique items.
-                    a.info(href='http://localhost:3000/images/Training/cookbook-village-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.cookbookvillage.com/', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4502px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/uppercase-sm.jpg', width='285', height='289', alt='UPPERCASE Publishing')
-                  .mask
-                    h2 books
-                    h3 UPPERCASE Publishing
-                    p
-                      | Clean and simple, this custom template draws your eye to UPPERCASE's beautifully designed catalog.
-                    a.info(href='http://localhost:3000/images/Training/uppercase-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.uppercasemagazine.com/', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4502px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/lacma-sm.jpg', width='285', height='289', alt='LACMA')
-                  .mask
-                    h2 books
-                    h3 LACMA
-                    p
-                      | Books, stationary, posters and prints on art and design at the shop of the Los Angeles County Museum of Art.
-                    a.info(href='http://localhost:3000/images/Training/lacma-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.lacma.org/', target='_blank') Visit Website
-              .col4.books.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 4846px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/10-recipes-sm.jpg', width='285', height='289', alt='10 Recipes')
-                  .mask
-                    h2 books
-                    h3 10 Recipes
-                    p
-                      | A visual cookbook for the modern man. Who knew a book could help with your swag? This simple custom template emphasizes the focus on the book.
-                    a.info(href='http://localhost:3000/images/Training/10-recipes-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.10recipestogetyoulaid.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 4846px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/fitedia-sm.jpg', width='285', height='289', alt='Fitedia')
-                  .mask
-                    h2 _
-                    h3 Fitedia
-                    p
-                      | Health and fitness books, ebooks and digital media. This custom template handles their large library of products with organized grace.
-                    a.info(href='http://localhost:3000/images/Training/fitedia-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://fitedia.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 4846px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/good-city-records-sm.jpg', width='285', height='289', alt='Good City Records')
-                  .mask
-                    h2 _
-                    h3 Good City Records
-                    p
-                      | A unique library of new and used records. This custom template features numerous products on its homepage.
-                    a.info(href='http://localhost:3000/images/Training/good-city-records-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://goodcityrecords.com/', target='_blank') Visit Website
-              .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5190px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/dodocase-sm.jpg', width='285', height='289', alt='DODOCase')
-                  .mask
-                    h2 electronics
-                    h3 DODOCase
-                    p
-                      | iPad cases handcrafted using traditional bookbinding techniques. This custom template effectively guides visitors to their main product.
-                    a.info(href='http://localhost:3000/images/Training/dodocase-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.dodocase.com/', target='_blank') Visit Website
-              .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5190px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/quad-lock-sm.jpg', width='285', height='289', alt='Quad Lock')
-                  .mask
-                    h2 electronics
-                    h3 Quad Lock
-                    p
-                      | A case based mounting system for your iPhone. This electronic accessories shop does a great job of showcasing the product’s functionality.
-                    a.info(href='http://localhost:3000/images/Training/quad-lock-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.quadlockcase.com/', target='_blank') Visit Website
-              .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5190px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/clearpath-robotics-sm.jpg', width='285', height='289', alt='Clearpath Robotics')
-                  .mask
-                    h2 electronics
-                    h3 Clearpath Robotics
-                    p
-                      | The Turtlebot, a small open source robot. Simplified homepage template design leads the user right into their electronics products.
-                    a.info(href='http://localhost:3000/images/Training/clearpath-robotics-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://store.clearpathrobotics.com/', target='_blank') Visit Website
-              .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5534px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/playbutton-sm.jpg', width='285', height='289', alt='Playbutton')
-                  .mask
-                    h2 electronics
-                    h3 Playbutton
-                    p A wearable electronic button that plays digital music.
-                    a.info(href='http://localhost:3000/images/Training/playbutton-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.playbutton.co/', target='_blank') Visit Website
-              .col4.electronics.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5534px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/studio-neat-sm.jpg', width='285', height='289', alt='Studio Neat')
-                  .mask
-                    h2 electronics
-                    h3 Studio Neat
-                    p
-                      | Creators of ingenious electronics accessories. Their store showcases all their thoughtfully designed products in one place.
-                    a.info(href='http://localhost:3000/images/Training/studio-neat-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.studioneat.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5534px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/zero-gravity-sm.jpg', width='285', height='289', alt='Zero Gravity')
-                  .mask
-                    h2 _
-                    h3 Zero Gravity
-                    p Electronics accessories that reference staples of modern pop culture. 
-                    a.info(href='http://localhost:3000/images/Training/zero-gravity-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.touchzerogravity.com/', target='_blank') Visit Website
-              .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 5878px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/penny-arcade-sm.jpg', width='285', height='289', alt='Penny Arcade')
-                  .mask
-                    h2 merchandise
-                    h3 Penny Arcade
-                    p
-                      | The online store of the popular web comic. The custom template is designed to blend seamlessly with the rest of their site’s content.
-                    a.info(href='http://localhost:3000/images/Training/penny-arcade-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://store.penny-arcade.com/', target='_blank') Visit Website
-              .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 5878px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/lollapalooza-sm.jpg', width='285', height='289', alt='Lollapalooza')
-                  .mask
-                    h2 merchandise
-                    h3 Lollapalooza
-                    p
-                      | Chicago's legendary outdoor music festival promotes its goods on Shopify with a heavily stylized custom template.
-                    a.info(href='http://localhost:3000/images/Training/lollapalooza-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://store.lollapalooza.com/', target='_blank') Visit Website
-              .col4.merchandise.tshirts.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 5878px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/epicmealtime-sm.jpg', width='285', height='289', alt='EpicMealTime')
-                  .mask
-                    h2 merchandise tshirts
-                    h3 EpicMealTime
-                    p
-                      | Bacon strips bacon strips bacon strips! Tshirts and merchandise of the immensely popular Epic Meal Time videos.
-                    a.info(href='http://localhost:3000/images/Training/epicmealtime-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.epicmealtime.com/', target='_blank') Visit Website
-              .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6222px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/ghostly-sm.jpg', width='285', height='289', alt='The Ghostly Store')
-                  .mask
-                    h2 merchandise
-                    h3 The Ghostly Store
-                    p
-                      | This record label's clean and sharp custom template perfectly fits their minimal product photography.
-                    a.info(href='http://localhost:3000/images/Training/ghostly-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.theghostlystore.com/', target='_blank') Visit Website
-              .col4.merchandise.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 6222px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/the-oatmeal-sm.jpg', width='285', height='289', alt='The Oatmeal Shop')
-                  .mask
-                    h2 merchandise
-                    h3 The Oatmeal Shop
-                    p
-                      | The popular web comic is now selling merchandise! Greeting cards, signed prints, posters, mugs and even sriracha! ...well sort of.
-                    a.info(href='http://localhost:3000/images/Training/the-oatmeal-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://shop.theoatmeal.com/', target='_blank') Visit Website
-              .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 6222px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/little-sparrow-sm.jpg', width='285', height='289', alt='Little Sparrow Tea')
-                  .mask
-                    h2 food
-                    h3 Little Sparrow Tea
-                    p
-                      | A boutique English tea company. The interactive tabbed navigation built into their custom template invites the user to explore the different tea varieties.
-                    a.info(href='http://localhost:3000/images/Training/little-sparrow-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://littlesparrowtea.com/', target='_blank') Visit Website
-              .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6566px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/faucet-face-sm.jpg', width='285', height='289', alt='Faucet Face')
-                  .mask
-                    h2 food
-                    h3 Faucet Face
-                    p
-                      | Glass water bottles with a design flair. Their shop’s custom template includes information on the environmental impact of drinking tap water.
-                    a.info(href='http://localhost:3000/images/Training/faucet-face-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://faucetface.com/', target='_blank') Visit Website
-              .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 340px; top: 6566px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/informal-tea-co-sm.jpg', width='285', height='289', alt='Informal Tea Co.')
-                  .mask
-                    h2 food
-                    h3 Informal Tea Co.
-                    p
-                      | New Zealand organic tea brand. Clean, beautiful custom template design that showcases their 3 varieties of tea.
-                    a.info(href='http://localhost:3000/images/Training/informal-tea-co-sm.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://www.informaltea.co.nz/', target='_blank') Visit Website
-              .col4.food.isotope-item.isotope-hidden(style='position: absolute; left: 680px; top: 6566px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/island-creek-oysters-sm.jpg', width='285', height='289', alt='Island Creek Oysters')
-                  .mask
-                    h2 food
-                    h3 Island Creek Oysters
-                    p
-                      | Island creek oyster farm is infamous for their oysters and clams. Their custom template showcases their history, catering services and food products.
-                    a.info(href='http://localhost:3000/images/Training/island-creek-oysters.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://islandcreekoysters.myshopify.com/', target='_blank') Visit Website
-              .col4._.isotope-item.isotope-hidden(style='position: absolute; left: 0px; top: 6910px; opacity: 0;')
-                .view.view-first
-                  img(src='./images/Training/blue-chair-sm.jpg', width='285', height='289', alt='Blue Chair Fruit')
-                  .mask
-                    h2 _
-                    h3 Blue Chair Fruit
-                    p
-                      | Delicious jams and marmalades from California. This food company’s shop also includes information about retail locations and recent news.
-                    a.info(href='http://localhost:3000/images/Training/blue-chair.jpg', rel='fancy') View Screenshot
-                    a.info(href='http://bluechairfruit.com/', target='_blank') Visit Website
-            script(type='text/javascript')
-              var init_clicked = false;
-              $(function() {
-              var $container = $('#examples-screenshots');
-              $container.isotope({
-              transformsEnabled: false,
-              hiddenStyle : {
-              opacity: 0,
-              scale : 1
-              }
-              });
-              $("#examples-filter a").click(function(e) {
-              e.preventDefault();
-              if (!$(this).hasClass('current'))
-              {
-              $("#examples-filter .current").removeClass("current");
-              $(this).addClass("current");
-              $container.isotope({ filter: "." + $(this).attr("data-filter") });
-              if (init_clicked)
-              {
-              $('html,body').animate({ scrollTop : 162 }, 400, 'swing');
-              if (location.host.indexOf("www.shopify"))	_gaq.push(['_trackPageview', $(this).attr("href")]);
-              if (history.pushState) history.pushState('', document.title, $(this).attr("href"));
-              }
-              else
-              {
-              init_clicked = true;
-              }
-              }
-              });
-              window.onpopstate = function(event) {
-              $("#examples-filter a[href='" + location.pathname + "']").click();
-              };
-              $("#examples-filter a[data-filter='featured']").click();
-              });
-      .row
-        #sub-call-to-action
-          h3.tc.signup
-            | Start your free,
-            strong no-risk
-            | , 14 day trial!
-            a.button.button-primary.call-to-action(href='#') Create your store now
+                

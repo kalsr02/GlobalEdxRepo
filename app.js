@@ -52,8 +52,8 @@ app.get('/LiveProjects', function(req, res){
   });
 });
 
-app.get('/contact', function(req, res){
-  res.render('contact', {
+app.get('/contactus', function(req, res){
+  res.render('contactus', {
     title: 'Contact'
   });
 });

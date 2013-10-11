@@ -1,0 +1,75 @@
+extends layout
+
+block content
+  #page6
+   .tail-top22
+     section#content
+      .container
+       .inside
+         #slogan
+           .inside
+             h2
+               span Please contact us for more information.
+             p
+               | We believe in connecting people to a great education so that anyone around
+               | the world can learn without limits. GlobalEdx is an education company that
+               | partners with the top instructors around theorganizations in the world to
+               | offer courses online for anyone to take. Our technology enables our customers
+               | to teach all students with greater needs.
+         .inside1
+           .wrap
+             article.col-1
+               h2 Postal Address
+               address
+                 b Zip Code:
+                 | 500038
+                 br
+                 b Country:
+                 | India
+                 br
+                 b State:
+                 | Andhra Pradesh
+                 br
+                 b City:
+                 | Hyderabad
+                 br
+                 b Telephone:
+                 | +9199 59 26619
+                 br
+                 b Fax:
+                 | +XXX XXXXXX
+                 br
+                 b Email:
+                 a(href='#') info@globaledx.com
+               h5 Miscellaneous Info:
+               p.p0
+                 | Classes offered on GlobalEdx are designed to help you master the material.
+                 | When you take one of our classes, you will watch lectures taught by best
+                 | instructors, learn at your own pace or at classroom, test your knowledge,
+                 | and reinforce concepts through interactive exercises and live projects.
+                 | When you join one of our classes, you'll also join a global community of
+                 | thousands of students learning alongside you. We know that your life is busy,
+                 | and that you have many commitments on your time. Thus, our courses are
+                 | designed based on sound pedagogical foundations, to help you master new 
+                 | concepts quickly and effectively. 
+             article.col-2
+               h2 Contact Form
+               form#contacts-form(action='')
+                 fieldset
+                   .field.text
+                     label Your Name:
+                     input(type='text')
+                   .field.text
+                     label Your E-mail:
+                     input(type='email')
+                   .field
+                     label Your Message:
+                     textarea
+                   .alignright
+                     a.link4(href='#', onclick='document.getElementById(\'contacts-form\').reset()')
+                       span
+                         span Clear
+                     a.link2(href='#', onclick='document.getElementById(\'contacts-form\').submit()')
+                       span
+                         span Send
+             .clear
