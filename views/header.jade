@@ -5,18 +5,39 @@ header
        .right
          nav
            ul
-             li.current
+             if pageName == 'Home'
+              li.current
                a(href='/') Home
-             li
+             else
+              li
+               a(href='/') Home
+             if pageName == 'Training'
+              li.current
                a(href='/Training') Training
-             li
+             else
+              li
+               a(href='/Training') Training
+             if pageName == 'LiveProjects'
+              li.current
                a(href='/liveprojects') Live Projects
-             li
+             else
+              li
+               a(href='/liveprojects') Live Projects
+             if pageName == 'Services'
+              li.current
+               a(href='/services') Services
+             else
+              li
                a(href='/services') Services
              li
                a(href='/support') Live Support
-             li
+             if pageName == 'ContactUs'
+              li.current
                a(href='/contactus') ContactUs
+             else
+              li
+               a(href='/contactus') ContactUs
+
          h1
            a(href='#')
              span Global

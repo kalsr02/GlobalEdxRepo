@@ -11,6 +11,17 @@ block content
     titleText: 'Latest News :'
     });
     });
+  // Home Slider ticker
+  script(type='text/javascript')
+      $(function(){
+      $("#faded").faded({
+       speed: 500,
+       crossfade: true,
+       autoplay: 10000,
+       autopagination:false
+      });
+      $('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+      });
   #page1
    .tail-top3
      section#content
@@ -44,7 +55,7 @@ block content
                small Get more information
            li
              a(href='#', rel='1')
-               span Virtual Classroom
+               span Online Training
                small Get more information
            li
              a(href='#', rel='2')

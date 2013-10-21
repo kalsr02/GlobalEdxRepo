@@ -30,31 +30,31 @@ app.configure('development', function(){
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Home'
+    pageName: 'Home'
   });
 });
 
 app.get('/Training', function(req, res){
   res.render('training', {
-    title: 'Training'
+    pageName: 'Training'
   });
 });
 
 app.get('/Services', function(req, res){
   res.render('services', {
-    title: 'Services'
+    pageName: 'Services'
   });
 });
 
 app.get('/LiveProjects', function(req, res){
   res.render('liveprojects', {
-    title: 'LiveProjects'
+    pageName: 'LiveProjects'
   });
 });
 
 app.get('/contactus', function(req, res){
   res.render('contactus', {
-    title: 'Contact'
+    pageName: 'ContactUs'
   });
 });
 

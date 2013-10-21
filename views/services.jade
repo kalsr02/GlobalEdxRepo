@@ -8,6 +8,17 @@ block content
   link(rel='stylesheet', href='css/Services/flexslider.css', type='text/css', media='screen')
   link(rel='stylesheet', href='css/Services/parallax-slider.css', type='text/css')
   link(rel='stylesheet', href='css/Services/default.css')
+  // Services Slider ticker
+  script(type='text/javascript')
+      $(function(){
+      $("#servicefaded").faded({
+       speed: 1000,
+       crossfade: true,
+       autoplay: 2000,
+       autopagination:false
+      });
+      $('#domain-form').jqTransform({imgPath:'jqtransformplugin/img/'});
+      });
   #page6(onload='new ElementMaxHeight();')
    .tail-top22
     section#content
@@ -201,6 +212,7 @@ block content
     script(type='text/javascript', src='js/Services/index.js')
     script(type='text/javascript')
       jQuery(document).ready(function() {
+      //App.init();
       App.initSliders();
       });
     
